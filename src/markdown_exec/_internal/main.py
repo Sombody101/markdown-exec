@@ -13,6 +13,7 @@ from markdown_exec._internal.formatters.pyodide import _format_pyodide
 from markdown_exec._internal.formatters.python import _format_python
 from markdown_exec._internal.formatters.sh import _format_sh
 from markdown_exec._internal.formatters.tree import _format_tree
+from markdown_exec._internal.formatters.typescript import _format_typescript
 from markdown_exec._internal.logger import get_logger
 
 if TYPE_CHECKING:
@@ -35,6 +36,7 @@ formatters = {
     "pyodide": _format_pyodide,
     "sh": _format_sh,
     "tree": _format_tree,
+    "typescript": _format_typescript
 }
 """Formatters for each language."""
 
