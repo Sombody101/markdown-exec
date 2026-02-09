@@ -1,3 +1,7 @@
+This is an unofficial fork to add TypeScript support. This will not get any support other than these direct features.
+Please use the official repo: https://github.com/pawamoy/markdown-exec
+
+
 # Markdown Exec
 
 [![ci](https://github.com/pawamoy/markdown-exec/workflows/ci/badge.svg)](https://github.com/pawamoy/markdown-exec/actions?query=workflow%3Aci)
